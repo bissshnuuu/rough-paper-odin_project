@@ -14,3 +14,11 @@ function getHumanChoice(){
     const userInput = prompt("Enter your choice: rock, paper, or scissors").toLowerCase();
     return userInput;
 }
+let userinp;
+do{
+    userinp = prompt("Do you want to play? (yes/no)").toLowerCase();
+    if(userinp === "yes" || userinp === "y"){
+        playGame();
+    }
+} while(userinp === "yes" || userinp === "y");
+
