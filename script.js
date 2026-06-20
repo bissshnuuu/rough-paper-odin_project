@@ -10,3 +10,7 @@ function getComputerChoice(){
     return choices[randomIndex];
 }
 
+function getHumanChoice(){
+    const userInput = prompt("Enter your choice: rock, paper, or scissors").toLowerCase();
+    return userInput;
+}
