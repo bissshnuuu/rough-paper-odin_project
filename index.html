@@ -6,8 +6,22 @@
     <title>Rock Paper</title>
 </head>
 <body>
-    <h1>Rock Paper Scissors Game</h1>
-    <p>Enter your choice: rock, paper, or scissors</p>
+    <div class="welcome">
+        <h1>Welcome to the Rock Paper Scissors Game</h1>
+        <p>There will be 5 rounds. May the best player win!</p>
+    </div>
+    <div class="playground">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div class="scoreboard">
+        <p>Human Score: <span id="human-score">0</span></p>
+        <p>Computer Score: <span id="computer-score">0</span></p>
+    </div>
+    <div class="result">
+        <p id="result">Make your choice!</p>
+    </div>
     <script src="script.js"></script>
     
 </body>
