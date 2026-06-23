@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(95, 95, 246);
+}
+.welcome{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+.playground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.playground button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.scoreboard{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+.result{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
